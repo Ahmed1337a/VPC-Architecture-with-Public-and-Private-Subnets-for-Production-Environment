@@ -96,21 +96,22 @@ b. After successfully SSHing into the private instance, create an HTML file usin
 
                vim demo.html
 
-      ```        
+             
 . This will open the Vim editor. Copy and paste any HTML content you like into the editor.
      For example:
-      ```html
-      <!DOCTYPE html>
-      <html>
-      <head>
-      <title>Page Title</title>
-      </head>
-      <body>
+     
+          html
+          <!DOCTYPE html>
+          <html>
+          <head>
+          <title>Page Title</title>
+          </head>
+          <body>
 
-      <h1>Hello world</h1>
-      </body>
-      </html>
-      ```
+          <h1>Hello world</h1>
+          </body>
+          </html>
+      
       After pasting the content, save the file by pressing 'Esc' to exit insert mode and then entering `:w` to save.<br>
      Finally, start a Python HTTP server on port 8000 to deploy your application on the private instance:
 
