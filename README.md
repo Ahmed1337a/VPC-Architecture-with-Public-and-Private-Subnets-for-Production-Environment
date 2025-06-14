@@ -112,8 +112,8 @@ b. After successfully SSHing into the private instance, create an HTML file usin
           </body>
           </html>
       
-      After pasting the content, save the file by pressing 'Esc' to exit insert mode and then entering `:w` to save.<br>
-     Finally, start a Python HTTP server on port 8000 to deploy your application on the private instance:
+        
+After pasting the content, save the file by pressing 'Esc' to exit insert mode and then entering `:w` to save.<br     Finally, start a Python HTTP server on port 8000 to deploy your application on the private instance:
 
                  python3 -m http.server 8000
 
