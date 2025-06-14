@@ -83,11 +83,14 @@ Scroll dow and click skip
 
 ### Step 4: 
 #### SSH into Private Instance:
-1.Start SSH agent (Linux/macOS)
-        ssh-add /path/to/bastion-key.pem
-2.SSH into Bastion and hop to private instance
-        ssh -A ec2-user@<Bastion-Public-IP>
-        ssh ec2-user@<Private-Instance-Private-IP>
+1.Start SSH agent (Linux/macOS) <br>
+
+          ssh-add /path/to/bastion-key.pem
+2.SSH into Bastion and hop to private instance<br>
+
+           ssh -A ec2-user@<Bastion-Public-IP>
+           
+           ssh ec2-user@<Private-Instance-Private-IP>
         
 Replace ec2-user with appropriate username (e.g., ubuntu, admin, etc.).
 
