@@ -51,10 +51,15 @@ Once you've configured all the settings, click "Create VPC."
 ![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/f4b351c1423d762ec35620cc5ce769676d8c3780/Images/10.png)
 
 ![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/f4b351c1423d762ec35620cc5ce769676d8c3780/Images/11.png)
+Scroll dow and click next
 
 ![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/f4b351c1423d762ec35620cc5ce769676d8c3780/Images/12.png)
+Scroll dow and click next
+
 
 ![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/f4b351c1423d762ec35620cc5ce769676d8c3780/Images/13.png)
+Scroll dow and click next
+
 
 ![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/f4b351c1423d762ec35620cc5ce769676d8c3780/Images/14.png)
 
