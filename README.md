@@ -74,7 +74,7 @@ Scroll dow and click skip
 1. Launch Instance as Specified below .
 
    
-![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/07d750c51a3e148dd4228d0349670162189ad1ba/Images/24.png)
+![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/e6a86965a90490a7a1c3001120ad4ef55e533b16/Images/28.png)
 
 ![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/07d750c51a3e148dd4228d0349670162189ad1ba/Images/26.png)
 
@@ -135,6 +135,10 @@ b. After successfully SSHing into the private instance, create an HTML file usin
 ![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/f4b351c1423d762ec35620cc5ce769676d8c3780/Images/22.png)
 
 ![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/f4b351c1423d762ec35620cc5ce769676d8c3780/Images/23.png)
+
+![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/f4b351c1423d762ec35620cc5ce769676d8c3780/Images/24.png)
+
+
 
 
 Now We Successfully deployed Application securely in Private instance , We can access it through Internet using Load Balancer Securely .
