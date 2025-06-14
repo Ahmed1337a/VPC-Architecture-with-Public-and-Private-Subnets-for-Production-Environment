@@ -14,16 +14,17 @@ The application servers are deployed within the private subnets and are managed 
 1. Open the Amazon VPC console by visiting https://console.aws.amazon.com/vpc/.
 2. On the dashboard, click on "Create VPC."
 3. Under "Resources to create," select "VPC and more."
-4. Configure the VPC:
-   a. Provide a name for the VPC in the "Name tag auto-generation" field.
-   b. For the IPv4 CIDR block, leave it as default suggestion.
-5. Configure the subnets:
-   a. Set the "Number of Availability Zones" to 2 for increased resiliency across multiple Availability Zones.
-   b. Specify the "Number of public subnets" as 2.
-   c. Specify the "Number of private subnets" as 2.
-   d. For NAT gateways, choose "1 per AZ" to enhance resiliency.
-   e. For VPC endpoints, you can choose "None" .
-   f. Regarding DNS options, clear the checkbox for "Enable DNS hostnames."
+4. Configure the VPC:<br>
+   a. Provide a name for the VPC in the "Name tag auto-generation" field.<br>
+   b. For the IPv4 CIDR block, leave it as default suggestion.<br>
+5. Configure the subnets:<br>
+   a. Set the "Number of Availability Zones" to 2 for increased resiliency across multiple Availability Zones.<br>
+   b. Specify the "Number of public subnets" as 2.<br>
+   c. Specify the "Number of private subnets" as 2.<br>
+   d. For NAT gateways, choose "1 per AZ" to enhance resiliency.<br>
+   e. For VPC endpoints, you can choose "None" .<br>
+   f. Regarding DNS options, clear the checkbox for "Enable DNS hostnames."<br>
+
 
 Once you've configured all the settings, click "Create VPC."
 
@@ -58,7 +59,7 @@ Scroll dow and click next
 
 
 ![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/f4b351c1423d762ec35620cc5ce769676d8c3780/Images/13.png)
-Scroll dow and click next
+Scroll dow and click skip
 
 
 ![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/f4b351c1423d762ec35620cc5ce769676d8c3780/Images/14.png)
