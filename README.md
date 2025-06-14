@@ -68,6 +68,88 @@ Scroll dow and click skip
 ![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/f4b351c1423d762ec35620cc5ce769676d8c3780/Images/15.png)
 
 
+## Step 3 :
+#### Creating the Bastion Host :
+
+1. Launch Instance as Specified below .
+
+   
+![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/07d750c51a3e148dd4228d0349670162189ad1ba/Images/24.png)
+
+![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/07d750c51a3e148dd4228d0349670162189ad1ba/Images/26.png)
+
+
+![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/07d750c51a3e148dd4228d0349670162189ad1ba/Images/27.png)
+
+### Step 4: 
+#### SSH into Private Instance:
+1.Start SSH agent (Linux/macOS)
+        ssh-add /path/to/bastion-key.pem
+2.SSH into Bastion and hop to private instance
+        ssh -A ec2-user@<Bastion-Public-IP>
+        ssh ec2-user@<Private-Instance-Private-IP>
+        
+Replace ec2-user with appropriate username (e.g., ubuntu, admin, etc.).
+
+a. We will deploy our application on one of the private instances to test the load balancer. <br>
+b. After successfully SSHing into the private instance, create an HTML file using the Vim text editor:
+
+               vim demo.html
+
+      ```        
+. This will open the Vim editor. Copy and paste any HTML content you like into the editor.
+     For example:
+      ```html
+      <!DOCTYPE html>
+      <html>
+      <head>
+      <title>Page Title</title>
+      </head>
+      <body>
+
+      <h1>Hello world</h1>
+      </body>
+      </html>
+      ```
+      After pasting the content, save the file by pressing 'Esc' to exit insert mode and then entering `:w` to save.<br>
+     Finally, start a Python HTTP server on port 8000 to deploy your application on the private instance:
+
+                 python3 -m http.server 8000
+
+
+   ### Step 4 :
+#### Creating the Load Balancer :
+
+![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/f4b351c1423d762ec35620cc5ce769676d8c3780/Images/16.png)
+
+![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/f4b351c1423d762ec35620cc5ce769676d8c3780/Images/17.png)
+
+![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/f4b351c1423d762ec35620cc5ce769676d8c3780/Images/18.png)
+
+![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/f4b351c1423d762ec35620cc5ce769676d8c3780/Images/19.png)
+
+![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/f4b351c1423d762ec35620cc5ce769676d8c3780/Images/20.png)
+
+![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/f4b351c1423d762ec35620cc5ce769676d8c3780/Images/21.png)
+
+![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/f4b351c1423d762ec35620cc5ce769676d8c3780/Images/22.png)
+
+![image](https://github.com/Ahmed1337a/VPC-Architecture-with-Public-and-Private-Subnets-for-Production-Environment/blob/f4b351c1423d762ec35620cc5ce769676d8c3780/Images/23.png)
+
+
+Now We Successfully deployed Application securely in Private instance , We can access it through Internet using Load Balancer Securely .
+
+
+
+                 
+
+      ```        
+
+
+
+
+
+
 
 
 
